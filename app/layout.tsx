@@ -1,8 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Playfair_Display } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const FontPlayfair = Playfair_Display({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
     title: 'Sushi-man',
@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body className={inter.className}>{children}</body>
+            <body className={FontPlayfair.className}>{children}</body>
         </html>
     )
 }
