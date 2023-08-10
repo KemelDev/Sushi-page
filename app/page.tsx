@@ -9,7 +9,7 @@ import PopularFood from '@/components/PopularFood'
 import Trending from '@/components/Trending'
 import SignUp from '@/components/SignUp'
 import Footer from '@/components/Footer'
-import Article from '@/components/Navbar copy'
+import Article from '@/components/Article'
 
 const FontPlayfair = Playfair_Display({ subsets: ['latin'] })
 const FontPlusJakarta = Plus_Jakarta_Sans({ subsets: ['latin'] })
@@ -17,9 +17,9 @@ const FontPlusJakarta = Plus_Jakarta_Sans({ subsets: ['latin'] })
 export default function Home() {
     return (
         <main className="bg-slate-800 text-slate-50 justify-center items-center ">
-            <div className=" bg-slate-500 flex justify-center content-center items-center">
+            <div className=" bg-slate-500 flex justify-center content-center items-center h-screen">
                 <Head />
-                <div className=" bg-slate-600 flex-colum justify-center content-center items-center">
+                <div className=" bg-slate-600 flex flex-colum justify-center content-center items-center">
                     <Section>
                         <Navbar />
                         <Article />
