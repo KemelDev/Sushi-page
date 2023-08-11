@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Article() {
     return (
-        <main className="pt-24">
+        <main className="pt-24 z-10">
             <h1 className="flex justify-center items-center font-bold text-4xl py-2">
                 Feel the taste of
             </h1>

@@ -16,7 +16,7 @@ const FontPlusJakarta = Plus_Jakarta_Sans({ subsets: ['latin'] })
 
 export default function Home() {
     return (
-        <main className="bg-slate-800 text-slate-50 justify-center items-center ">
+        <main className="bg-slate-600 text-slate-50 justify-center items-center ">
             <div className=" bg-slate-500 flex justify-center content-center items-center h-screen">
                 <Head />
                 <div className=" bg-slate-600 flex flex-colum justify-center content-center items-center">
