@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function AboutUs() {
     return (
-        <main className="bg-slate-300 justify-center items-center flex h-[720px]">
+        <main className="bg-slate-300 justify-center items-center flex h-[520px]">
             <div className="w-80 bg-slate-300 relative ">
                 <Image
                     src="/about_bg1.png"
@@ -43,7 +43,7 @@ export default function AboutUs() {
 
             {/* Aca separo ambos espacios */}
 
-            <div className=" w-80 h-[720px] bg-[#fff0de] text-black z-30">
+            <div className=" w-80 h-[520px] bg-[#fff0de] text-black z-30">
                 <div className="flex-col">
                     <p className="pl-8 pt-12 pb-2 text-[#b1454a] text-[12px]">
                         About Us / 私たちに関しては{' '}
